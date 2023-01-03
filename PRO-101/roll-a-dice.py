@@ -1,16 +1,9 @@
 import random 
-  
-# Take a variable to store response to keep rolling a dice
+ 
 response = "y"
    
 while response == "y": 
-      
-    # Gnenerates a random number 
-    # between 1 and 6 (including 
-    # both 1 and 6) 
-    no = random.randint(1,6) 
-
-    # conditions to check the number value  
+    no = random.randint(1,6)   
     if no == 1: 
         print("[-----]") 
         print("[     ]") 
@@ -46,8 +39,6 @@ while response == "y":
         print("[0 0 0]") 
         print("[     ]") 
         print("[0 0 0]") 
-        print("[-----]") 
-          
-    # Ask user to enter a response      
+        print("[-----]")     
     response=input("press y to roll again and n to exit:") 
     print("\n") 
